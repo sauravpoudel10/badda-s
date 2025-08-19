@@ -31,7 +31,7 @@
             justify-content: center;
             align-items: center;
             z-index: 10000;
-            transition: opacity 0.8s ease, visibility 0.8s ease;
+            transition: opacity 0.4s ease, visibility 0.4s ease;
         }
 
         .loader.hidden {
@@ -48,7 +48,7 @@
             font-size: 3rem;
             font-weight: bold;
             margin-bottom: 1rem;
-            animation: pulse 2s infinite;
+            animation: pulse 1s infinite;
         }
 
         .loader-text {
@@ -240,9 +240,9 @@
 
         .menu-image {
             width: 100%;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            border-radius: 20px;
+            border-radius: 10px;
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
             transition: all 0.5s ease;
             cursor: pointer;
@@ -280,7 +280,7 @@
         }
 
         .menu-image:hover img {
-            transform: scale(1.05);
+            transform: scale(1.1);
         }
 
         /* Section Headers */
@@ -657,12 +657,12 @@
     <nav>
         <div class="nav-container">
             <a href="#rice-bowls" class="nav-link">
-                <span class="nav-icon">🍚</span>
-                <span class="nav-text">Rice Bowls</span>
-            </a>
-            <a href="#burgers" class="nav-link">
                 <span class="nav-icon">🍔</span>
                 <span class="nav-text">Burgers & Chicken</span>
+            </a>
+            <a href="#burgers" class="nav-link">
+                <span class="nav-icon">🍚</span>
+                <span class="nav-text">Rice Bowls</span>
             </a>
             <a href="#specials" class="nav-link">
                 <span class="nav-icon">🥟</span>
@@ -906,3 +906,4 @@
     </script>
 </body>
 </html>
+
